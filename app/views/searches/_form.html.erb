@@ -1,0 +1,7 @@
+<%= form_for @search, url: {action: :create} do |form| %>
+
+  <%= form.label :hash_tag %>
+  <%= form.text_field :hash_tag %>
+  <%= form.submit "Go" %>
+
+<% end -%>

@@ -1,0 +1,9 @@
+<%= render partial: 'form' %>
+
+<ul class="search">
+<% @search.results.each do |search|  %>
+  <li>
+    <%= search.text %>
+  </li>
+<% end -%>
+</ul>
